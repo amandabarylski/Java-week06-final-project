@@ -62,4 +62,14 @@ public class Player {
 		score += 1;
 	}
 	
+	//Getters- added these later as I realized I needed them in my print statements in the main method,
+	//since the describe method prints all their cards as well.
+	public String getName() {
+		return name;
+	}
+	
+	public int getScore() {
+		return score;
+	}
+	
 }
